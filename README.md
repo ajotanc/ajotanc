@@ -21,7 +21,7 @@ const developer = {
 function sayMessage(dev) {
 	const codes = dev.code.join(', ');
 
-	return `Hi, I'm ${dev.name}! [aka ${dev.username}]. I am ${dev.years} years old, I live in ${dev.location}.
+	return `Hi, I'm ${dev.name}, [aka ${dev.username}]. I am ${dev.years} years old, I live in ${dev.location}.
 		I have been developing for a few years, I am currently working and studying at ${codes}.
 		My main focus right now is ${dev.currentFocus}.`;
 }
