@@ -1,7 +1,33 @@
-Olá, eu sou Alerson Jorge!
-======
+```js
+const developer = {
+	username: 'Ajota',
+	name: 'Alerson Jorge',
+	years: 29,
+	location: 'Salvador, Bahia, Brasil',
+	code: ['Javascript', 'Typescript', 'React', 'Node', 'HTML', 'CSS', 'PHP'],
+	technologies: {
+		frontEnd: {
+			js: ['React'],
+			css: ['Styled-Components', 'Css-Module']
+		},
+		backEnd: {
+			js: ['Node', 'Express']
+		},
+		databases: ['Mongo', 'MySql', 'Sqlite']
+	},
+	currentFocus: 'Be full stack, node, react and react native developer',
+};
 
+function sayMessage(dev) {
+	const codes = dev.code.join(', ');
 
+	return `Hi, I'm ${dev.name}! [aka ${dev.username}]. I am ${dev.years} years old, I live in ${dev.location}.
+		I have been developing for a few years, I am currently working and studying at ${codes}.
+		My main focus right now is ${dev.currentFocus}.`;
+}
+
+sayMessage(developer);
+```
 [![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajotanc)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajotanc)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/ajotanc)
