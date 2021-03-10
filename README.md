@@ -4,7 +4,7 @@ const developer = {
 	name: 'Alerson Jorge',
 	years: 29,
 	location: 'Salvador, Bahia, Brasil',
-	code: ['Javascript', 'Typescript', 'React', 'Node', 'HTML', 'CSS', 'PHP'],
+	codes: ['Javascript', 'Typescript', 'React', 'Node', 'HTML', 'CSS', 'PHP'],
 	technologies: {
 		frontEnd: {
 			js: ['React'],
@@ -20,7 +20,7 @@ const developer = {
 
 function sayMessage(developer) {
 	const { name, username, location, currentFocus } = developer;
-	const codes = developer.code.join(', ');
+	const codes = developer.codes.join(', ');
 
 	return `Hi, I'm ${name}, [aka ${username}]. I am ${years} years old, I live in ${location}.
 		I have been developing for a few years, I am currently working and studying at ${codes}.
