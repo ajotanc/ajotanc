@@ -18,12 +18,13 @@ const developer = {
 	currentFocus: 'Be full stack, node, react and react native developer',
 };
 
-function sayMessage(dev) {
-	const codes = dev.code.join(', ');
+function sayMessage(developer) {
+	const { name, username, location, currentFocus } = developer;
+	const codes = developer.code.join(', ');
 
-	return `Hi, I'm ${dev.name}, [aka ${dev.username}]. I am ${dev.years} years old, I live in ${dev.location}.
+	return `Hi, I'm ${name}, [aka ${username}]. I am ${years} years old, I live in ${location}.
 		I have been developing for a few years, I am currently working and studying at ${codes}.
-		My main focus right now is ${dev.currentFocus}.`;
+		My main focus right now is ${currentFocus}.`;
 }
 
 sayMessage(developer);
