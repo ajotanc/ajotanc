@@ -2,7 +2,7 @@
 const developer = {
 	username: 'Ajota',
 	name: 'Alerson Jorge',
-	years: 29,
+	years: 31,
 	location: 'Salvador, Bahia, Brasil',
 	codes: ['Javascript', 'Typescript', 'React', 'Node', 'HTML', 'CSS', 'PHP'],
 	technologies: {
