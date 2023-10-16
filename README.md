@@ -2,9 +2,9 @@
 const developer = {
 	username: 'Ajota',
 	name: 'Alerson Jorge',
-	years: 31,
+	years: 32,
 	location: 'Salvador, Bahia, Brasil',
-	codes: ['Javascript', 'Typescript', 'React', 'Node', 'HTML', 'CSS', 'PHP'],
+	codes: ['Javascript', 'Typescript', 'React', 'Node', 'HTML', 'CSS', 'PHP', 'CakePHP'],
 	technologies: {
 		frontEnd: {
 			js: ['React'],
@@ -13,7 +13,7 @@ const developer = {
 		backEnd: {
 			js: ['Node', 'Express']
 		},
-		databases: ['Mongo', 'MySql', 'Sqlite']
+		databases: ['SQL Server', 'Postgres', 'Mongo', 'MySql', 'Sqlite']
 	},
 	currentFocus: 'Be full stack, node, react and react native developer',
 };
